@@ -73,5 +73,22 @@ public class Proveedor {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
-
+	
+	//Métodos
+	public int registrar_proveedor(){
+		int res = 0;
+		return res;		
+	}
+	
+	public int actualizar_proveedor(){
+		int res = 0;
+		return res;	
+	}
+	public int eliminar_proveedor(){
+		int res = 0;
+		return res;	
+    }
+	public void listar_proveedor(){
+		
+	}
 }
