@@ -9,7 +9,7 @@
 <body>
 
 <div align="center">
-<form action = "" method = "post">
+<form action = "cProveedor" method = "post">
 	<table>
 		<tr><th colspan ="2">Registrar Proveedor</th></tr>
 		<tr>

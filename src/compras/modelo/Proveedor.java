@@ -75,20 +75,22 @@ public class Proveedor {
 	}
 	
 	//Métodos
-	public int registrar_proveedor(){
+	public int registrar_proveedor(Proveedor p){
+		System.out.println(p);
+		System.out.println("Pasó por la clase Proveedor, Modelo");
 		int res = 0;
 		return res;		
 	}
 	
-	public int actualizar_proveedor(){
+	public int actualizar_proveedor(Proveedor p){
 		int res = 0;
 		return res;	
 	}
-	public int eliminar_proveedor(){
+	public int eliminar_proveedor(Proveedor p){
 		int res = 0;
 		return res;	
     }
-	public void listar_proveedor(){
+	public void listar_proveedor(Proveedor p){
 		
 	}
 }
