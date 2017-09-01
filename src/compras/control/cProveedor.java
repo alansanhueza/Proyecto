@@ -23,7 +23,6 @@ public class cProveedor extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
     
-    
     //-------------------------------------------------
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -33,7 +32,6 @@ public class cProveedor extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		
 		//Capturamos los datos del formulario y los guardamos en el modelo(Proveedor.java)
 		p.setRazonsocial(request.getParameter("rs"));
 		p.setRuc(request.getParameter("ruc"));
